@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.booking-interface {
+  margin: 20px 0;
+}
+
+.booking-interface input {
+  padding: 5px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.booking-interface button {
+  padding: 5px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.hotel-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.floor {
+  margin: 10px 0;
+}
+
+.room-row {
+  display: flex;
+  justify-content: center;
+}
+
+.room {
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  margin: 2px;
+  border: 1px solid #000;
+  cursor: default;
+}
+
+.available {
+  background-color: #90ee90; /* Light green */
+}
+
+.booked {
+  background-color: #ff6347; /* Tomato red */
+}
